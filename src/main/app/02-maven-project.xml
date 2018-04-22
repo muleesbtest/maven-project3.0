@@ -16,5 +16,6 @@ http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/cu
     <flow name="mavenFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/hello" doc:name="HTTP"/>
         <set-payload value="#['Hello World']" doc:name="Set Payload"/>
+        <set-property propertyName="Content-Type" value="text/plain" doc:name="Property"/>
     </flow>
 </mule>
