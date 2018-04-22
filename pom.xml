@@ -93,8 +93,8 @@
 			<artifactId>mule-transport-http</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
-		</dependency>
-		<dependency>
+	 	</dependency>
+	<!--	<dependency>
         	<groupId>com.mulesoft.muleesb.transports</groupId>
 			<artifactId>mule-transport-jdbc-ee</artifactId>
 			<version>${mule.version}</version>
@@ -105,7 +105,7 @@
 			<artifactId>mule-transport-jms-ee</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.mule.transports</groupId>
 			<artifactId>mule-transport-vm</artifactId>
